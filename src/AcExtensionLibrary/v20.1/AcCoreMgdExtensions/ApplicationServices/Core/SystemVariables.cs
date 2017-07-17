@@ -372,17 +372,29 @@ namespace Autodesk.AutoCAD.ApplicationServices.Core
             }
 
             /// <summary>
+            /// Gets or sets the ACTPATH.
+            /// </summary>
+            /// <value>
+            /// The ACTPATH.
+            /// </value>
+            /// 
+            public string ACTPATH
+            {
+                get { return GetSystemVariable<string>(); }
+                set { SetSystemVariable(value); }
+            }
+            /// <summary>
             /// Gets or sets the ctab.
             /// </summary>
             /// <value>
             /// The ctab.
             /// </value>
+            
             public string CTAB
             {
                 get { return GetSystemVariable<string>(); }
                 set { SetSystemVariable(value); }
             }
-
             /// <summary>
             /// Gets or sets the mleaderscale.
             /// </summary>

@@ -370,7 +370,18 @@ namespace Autodesk.AutoCAD.ApplicationServices.Core
                 get { return GetBoolSystemVariable(); }
                 set { SetBoolSystemVariable(value); }
             }
-
+            /// <summary>
+            /// Gets or sets the ACTPATH.
+            /// </summary>
+            /// <value>
+            /// The ACTPATH.
+            /// </value>
+            /// 
+            public string ACTPATH
+            {
+                get { return GetSystemVariable<string>(); }
+                set { SetSystemVariable(value); }
+            }
             /// <summary>
             /// Gets or sets the ctab.
             /// </summary>

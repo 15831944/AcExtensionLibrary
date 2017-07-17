@@ -75,5 +75,6 @@ namespace Autodesk.AutoCAD.ApplicationServices.Core
             get { return GetEnviromentVariable(); }
             set { SetEnviromentVariable(value); }
         }
+
     }
 }
