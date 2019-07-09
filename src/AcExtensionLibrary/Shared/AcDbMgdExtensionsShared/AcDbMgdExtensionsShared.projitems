@@ -9,6 +9,7 @@
     <Import_RootNamespace>Autodesk.AutoCAD</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)AcExtTransaction.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)DatabaseServices\AnnotationScaleExtensions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)DatabaseServices\BlockReferenceExtensions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)DatabaseServices\BlockTableExtensions.cs" />
